@@ -63,6 +63,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                 ),
                 DefaultTextStyle(
                   child: AnimatedTextKit(
+                    repeatForever: true,
                     animatedTexts: [
                       TypewriterAnimatedText(
                         'Flash Chat',
@@ -73,7 +74,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                   ),
                   style: TextStyle(
                     color: Colors.grey.shade900,
-                    fontSize: size.width * 0.1,
+                    fontSize: size.width * 0.12,
                     fontWeight: FontWeight.w900,
                   ),
                 ),
